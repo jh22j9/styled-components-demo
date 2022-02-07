@@ -1,4 +1,4 @@
-import StyledButton from "./components/Button/Button";
+import StyledButton, { FancyButton } from "./components/Button/Button";
 
 function App() {
   return (
@@ -8,6 +8,11 @@ function App() {
         <br />
       </div>
       <StyledButton variant="outline">Styled Button</StyledButton>
+      <div>
+        <br />
+      </div>
+      <FancyButton as="a">Fancy Button</FancyButton>
+      {/* as - polymorphic prop */}
     </div>
   );
 }

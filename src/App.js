@@ -1,4 +1,4 @@
-import StyledButton from "./components/Button";
+import StyledButton from "./components/Button/Button";
 
 function App() {
   return (
